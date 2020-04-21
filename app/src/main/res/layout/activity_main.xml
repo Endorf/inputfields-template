@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/app_margin"
+    android:padding="16dp"
     tools:context=".MainActivity">
 
     <EditText
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="input field"
-        android:layout_marginBottom="@dimen/app_margin"/>
+        android:layout_marginBottom="16dp"/>
 
     <Button
         android:id="@+id/btn"
